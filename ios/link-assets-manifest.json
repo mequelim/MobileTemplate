@@ -1,0 +1,165 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/FragmentMono/FragmentMono-Italic.ttf",
+      "sha1": "4f963695f46a47977538848e9319a1ff4d58bbba"
+    },
+    {
+      "path": "assets/fonts/FragmentMono/FragmentMono-Regular.ttf",
+      "sha1": "a8ae2dd6c36250cf85afbcf35e851ef25a5ad39b"
+    },
+    {
+      "path": "assets/fonts/Helvetica/Helvetica-Bold.ttf",
+      "sha1": "d064906892c6baf2916d5102910026ba0a4f2664"
+    },
+    {
+      "path": "assets/fonts/Helvetica/Helvetica-Regular.ttf",
+      "sha1": "53cb59bdb997dd39dc70b95d50133583e66ebdcb"
+    },
+    {
+      "path": "assets/fonts/JetBrainsMono/JetBrainsMono-Bold.ttf",
+      "sha1": "3749e1402fb5d5ab05c082911a4222b30e7e7ce9"
+    },
+    {
+      "path": "assets/fonts/JetBrainsMono/JetBrainsMono-Italic.ttf",
+      "sha1": "a613563d85b404435e276b67732e1f838081cc65"
+    },
+    {
+      "path": "assets/fonts/JetBrainsMono/JetBrainsMono-Medium.ttf",
+      "sha1": "6c85ba197a824800c623170a03de2c7dcd4e231f"
+    },
+    {
+      "path": "assets/fonts/JetBrainsMono/JetBrainsMono-Regular.ttf",
+      "sha1": "c48508dd46c3ca28ce0d2fd9e65bfb7199532f58"
+    },
+    {
+      "path": "assets/fonts/LexendDeca/LexendDeca-Bold.ttf",
+      "sha1": "7ee129b4ba6b0eafef748040d48b7979429f149e"
+    },
+    {
+      "path": "assets/fonts/LexendDeca/LexendDeca-Medium.ttf",
+      "sha1": "ab665bd77c6d32b4ddb555d2508fde44d384c822"
+    },
+    {
+      "path": "assets/fonts/LexendDeca/LexendDeca-Regular.ttf",
+      "sha1": "68dad5183767d1ebf077be1ddb622a7586f28384"
+    },
+    {
+      "path": "assets/fonts/LexendDeca/LexendDeca-SemiBold.ttf",
+      "sha1": "f79ea2615b597db5e10776fb1889b783283aeffc"
+    },
+    {
+      "path": "assets/fonts/Overpass/Overpass-Black.ttf",
+      "sha1": "0195b73ce476f05dd9421de16d9f9fd2109d463e"
+    },
+    {
+      "path": "assets/fonts/Overpass/Overpass-BlackItalic.ttf",
+      "sha1": "63c9cd5d08ed32a5be556ae63789c29efc8ccb7f"
+    },
+    {
+      "path": "assets/fonts/Overpass/Overpass-Bold.ttf",
+      "sha1": "e420e1174dd8cda693ffd247d31ae6f3bd1681b7"
+    },
+    {
+      "path": "assets/fonts/Overpass/Overpass-BoldItalic.ttf",
+      "sha1": "6960eba5a57845edc9f4859bc40cf9bcb482f78e"
+    },
+    {
+      "path": "assets/fonts/Overpass/Overpass-ExtraBold.ttf",
+      "sha1": "16f7d756cbd0bb26643eed50bc9f4052268bb9d6"
+    },
+    {
+      "path": "assets/fonts/Overpass/Overpass-ExtraBoldItalic.ttf",
+      "sha1": "49531bfe17e80a4e82bd6f451bb10092a05ebe2b"
+    },
+    {
+      "path": "assets/fonts/Overpass/Overpass-ExtraLight.ttf",
+      "sha1": "f4a466c00975961894636b410bc518c16c348d7d"
+    },
+    {
+      "path": "assets/fonts/Overpass/Overpass-ExtraLightItalic.ttf",
+      "sha1": "418ac45b6cfcedad9531119614046cd2e92887f8"
+    },
+    {
+      "path": "assets/fonts/Overpass/Overpass-Italic.ttf",
+      "sha1": "c24d68be02e7337ab604978fb32c28ef1b25aca2"
+    },
+    {
+      "path": "assets/fonts/Overpass/Overpass-Light.ttf",
+      "sha1": "52468851c02639791989b60d4b7f0fea21215081"
+    },
+    {
+      "path": "assets/fonts/Overpass/Overpass-LightItalic.ttf",
+      "sha1": "5695bfc7b75a4aaa26f8c62f66c4d0acaa41772e"
+    },
+    {
+      "path": "assets/fonts/Overpass/Overpass-Medium.ttf",
+      "sha1": "fecb003e384b102093e529d6e0de15e2c1d314ea"
+    },
+    {
+      "path": "assets/fonts/Overpass/Overpass-MediumItalic.ttf",
+      "sha1": "7fe3c6a2b81571105ec0d757975da03f55d99761"
+    },
+    {
+      "path": "assets/fonts/Overpass/Overpass-Regular.ttf",
+      "sha1": "0dab6623885d01676c91a370c6d450b6cc9dce9b"
+    },
+    {
+      "path": "assets/fonts/Overpass/Overpass-SemiBold.ttf",
+      "sha1": "5952fd0cbfae82d8f9be0a9a9c10966ca19aa2cf"
+    },
+    {
+      "path": "assets/fonts/Overpass/Overpass-SemiBoldItalic.ttf",
+      "sha1": "2d6633b8632e2211b7d21d55511ca30141d5d1d3"
+    },
+    {
+      "path": "assets/fonts/Overpass/Overpass-Thin.ttf",
+      "sha1": "c980d3f0238678fb30d73fc63aef7ff49a1ae6ce"
+    },
+    {
+      "path": "assets/fonts/Overpass/Overpass-ThinItalic.ttf",
+      "sha1": "33f0359f663bf45b168770ac9229356b5b736784"
+    },
+    {
+      "path": "assets/fonts/Poppins/Poppins-Bold.ttf",
+      "sha1": "cbe48c785f1af6bcd7320609094055e299481da9"
+    },
+    {
+      "path": "assets/fonts/Poppins/Poppins-Medium.ttf",
+      "sha1": "5c96d1545a51c39e05ee0fcc0c3c9021f14d9c31"
+    },
+    {
+      "path": "assets/fonts/Poppins/Poppins-Regular.ttf",
+      "sha1": "440dc8992517a306d66e55cb0afed0cfe9b971b5"
+    },
+    {
+      "path": "assets/fonts/SplineSansMono/SplineSansMono-Bold.ttf",
+      "sha1": "3de8fef9408c6232bacf7ac3236128310a89d5cf"
+    },
+    {
+      "path": "assets/fonts/SplineSansMono/SplineSansMono-Medium.ttf",
+      "sha1": "512b3027fb8b37aad0f6d56d1f43c105dbb03fbe"
+    },
+    {
+      "path": "assets/fonts/SplineSansMono/SplineSansMono-Regular.ttf",
+      "sha1": "df140d74ef1c16c87935b9a958b39bba543ad9e2"
+    },
+    {
+      "path": "assets/fonts/SplineSansMono/SplineSansMono-SemiBold.ttf",
+      "sha1": "9d7084ef70ca1c6b83dc23684d80020221603b14"
+    },
+    {
+      "path": "assets/fonts/WorkSans/WorkSans-Bold.ttf",
+      "sha1": "098c2420f59811d626752fbdf521a5c5ded2068f"
+    },
+    {
+      "path": "assets/fonts/WorkSans/WorkSans-Medium.ttf",
+      "sha1": "1ed172f57ad9f44be4c8ba2bcf473bea288c9a07"
+    },
+    {
+      "path": "assets/fonts/WorkSans/WorkSans-Regular.ttf",
+      "sha1": "3a5bd698d50be4d188c32c51a742e0d06facd697"
+    }
+  ]
+}

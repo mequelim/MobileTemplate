@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		096C0945575643ACA46332A9 /* Overpass-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F643485457514065BB373A4E /* Overpass-ExtraBold.ttf */; };
+		0C80B921A6F3F58F76C31292 /* libPods-MobileTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-MobileTemplate.a */; };
+		1040442AB3B24FD4A066F42C /* LexendDeca-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAEF1548AFDA402293A3AB01 /* LexendDeca-Medium.ttf */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		14F73819831F4D92BF93C25C /* Overpass-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02A653FDEE8748508735ED64 /* Overpass-Bold.ttf */; };
+		1647C84755974A4D85F7C117 /* Overpass-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2387C0B75210468B9ABF61A5 /* Overpass-BlackItalic.ttf */; };
+		184D68429E7746889D798DB0 /* Helvetica-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA5291B285249C2B7B6AAB5 /* Helvetica-Bold.ttf */; };
+		1A2461A773554009A7BA977F /* Overpass-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A652F89AECB948F2B449F6D6 /* Overpass-ExtraLight.ttf */; };
+		1B2E7C04543547A29D424121 /* Overpass-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0BBC0790F27499BB4B4A4DF /* Overpass-Medium.ttf */; };
+		1C2B86EA46EE4405BF37149E /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01C8049BDB524E6293D04361 /* Poppins-Regular.ttf */; };
+		208E9C928ACD44D09567C736 /* SplineSansMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3971AB99AC74BE5AA6CBA57 /* SplineSansMono-Regular.ttf */; };
+		2C61203F9F284286BA340B0F /* Overpass-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C95431010DD14DE4BBFF2612 /* Overpass-BoldItalic.ttf */; };
+		2E833FF3096547EAA811540E /* LexendDeca-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5E1C634A7AC4F50A62146CF /* LexendDeca-Regular.ttf */; };
+		3B2F1FA343314EE286B63FDC /* Overpass-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE7B5276509F45AF909D8DEF /* Overpass-Light.ttf */; };
+		3E1A8595E9394BB99E6CD0E3 /* FragmentMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 957BA865088F4B7E86FAFCC8 /* FragmentMono-Regular.ttf */; };
+		3E4D6367558946C89A2CC7ED /* Overpass-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6B3B6A700B4470E85002DF8 /* Overpass-MediumItalic.ttf */; };
+		4C41BE980A9841C49FD6C88D /* JetBrainsMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCDFB68EA9BF4C678BB07D3E /* JetBrainsMono-Medium.ttf */; };
+		4E006817FB114376BBE96F1B /* SplineSansMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2E5472F44A0476CA41C01C8 /* SplineSansMono-Medium.ttf */; };
+		4E43E002181D4C3E8B5FBB4B /* FragmentMono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA5F9200A45D46A6B121BC27 /* FragmentMono-Italic.ttf */; };
+		4F716BC805AE4C44A856D305 /* LexendDeca-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38052427DF4F472FADDDB294 /* LexendDeca-Bold.ttf */; };
+		565E6FBB1E394ADE9A4986AA /* SplineSansMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 991E1AA10CB2469BBB66712B /* SplineSansMono-SemiBold.ttf */; };
+		704A4D53B0B14B969A21731A /* JetBrainsMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5464E6C4996549CEA4AAADF4 /* JetBrainsMono-Regular.ttf */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		7ADC433D50D440ADAF26378B /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00D88D562D0D4FD383A4A5A5 /* Poppins-Bold.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		81DC97A9A3FA4D99913874BF /* Overpass-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D01DD389B3B4D28BE5B65FF /* Overpass-SemiBold.ttf */; };
+		8355D32B5B164C8BB70E3486 /* WorkSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73D69B9F344942FBA3B20BB6 /* WorkSans-Bold.ttf */; };
+		92048F1C7B4844EB994E7DD0 /* WorkSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A41F7DCD93A64335814B7CB8 /* WorkSans-Medium.ttf */; };
+		924EC8C090AD4FD296B97DAE /* Overpass-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9CA9F6DDAA94B23AF1B8BCF /* Overpass-ExtraLightItalic.ttf */; };
+		9823105BB6B044F09C80EA41 /* Overpass-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59848CC186B94565BD4DDD42 /* Overpass-Thin.ttf */; };
+		9AB2505C85B24B84ADF8A279 /* Helvetica-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEBAEBDA454B4836A1908415 /* Helvetica-Regular.ttf */; };
+		9B3FA0F882804FA69C344572 /* Overpass-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70CA77C6E2F64069BEE0963C /* Overpass-ExtraBoldItalic.ttf */; };
+		B728D290E8154AAF96BAD64D /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD0D839DD93940BCA8364CAE /* Poppins-Medium.ttf */; };
+		B934E1FD9A38496BA316C5FB /* WorkSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 676504D96E9648E8877F5E57 /* WorkSans-Regular.ttf */; };
+		BCC2E5A430F5414090CD8A63 /* SplineSansMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B25FA3549A44A2D9207D202 /* SplineSansMono-Bold.ttf */; };
+		C9A75BFF5F1B4F0180E93EE1 /* LexendDeca-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F008AC3E7C644D5790442CDE /* LexendDeca-SemiBold.ttf */; };
+		CC5A5386010A4F029575C55F /* Overpass-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1BD44E5FB68481DBA97A373 /* Overpass-Black.ttf */; };
+		D9B52C0C0718441AADBEFCE4 /* Overpass-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FBBA8C8877F4643A9AF9E36 /* Overpass-ThinItalic.ttf */; };
+		DB1C2CB3F69B48F497238DEA /* JetBrainsMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 570AC3B9F2C845029BB74FA9 /* JetBrainsMono-Bold.ttf */; };
+		DDBEA86439D74BB68D12AA75 /* Overpass-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D043E5C75944A42BCB90D21 /* Overpass-LightItalic.ttf */; };
+		E7249B881D4CAEC383EF2538 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		EAE194FCBAB24DC396746500 /* Overpass-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B2AB2AF085841878EA866CE /* Overpass-Italic.ttf */; };
+		EB957BDB205E44058636C2DB /* Overpass-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0583B2473BC4CE8A7EAE9FA /* Overpass-SemiBoldItalic.ttf */; };
+		ED7499D5F0E14A339389DF9E /* Overpass-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6FAD8C3CF4D4AF7A39A2688 /* Overpass-Regular.ttf */; };
+		F0ED6222C0D64C818D73F6BD /* JetBrainsMono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B043846C91B4F3E9AEC54E4 /* JetBrainsMono-Italic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00D88D562D0D4FD383A4A5A5 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		01C8049BDB524E6293D04361 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		02A653FDEE8748508735ED64 /* Overpass-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Overpass-Bold.ttf"; path = "../assets/fonts/Overpass/Overpass-Bold.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* MobileTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MobileTemplate/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MobileTemplate/Info.plist; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = MobileTemplate/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		2387C0B75210468B9ABF61A5 /* Overpass-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Overpass-BlackItalic.ttf"; path = "../assets/fonts/Overpass/Overpass-BlackItalic.ttf"; sourceTree = "<group>"; };
+		2D043E5C75944A42BCB90D21 /* Overpass-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Overpass-LightItalic.ttf"; path = "../assets/fonts/Overpass/Overpass-LightItalic.ttf"; sourceTree = "<group>"; };
+		2FBBA8C8877F4643A9AF9E36 /* Overpass-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Overpass-ThinItalic.ttf"; path = "../assets/fonts/Overpass/Overpass-ThinItalic.ttf"; sourceTree = "<group>"; };
+		38052427DF4F472FADDDB294 /* LexendDeca-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LexendDeca-Bold.ttf"; path = "../assets/fonts/LexendDeca/LexendDeca-Bold.ttf"; sourceTree = "<group>"; };
+		3B25FA3549A44A2D9207D202 /* SplineSansMono-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SplineSansMono-Bold.ttf"; path = "../assets/fonts/SplineSansMono/SplineSansMono-Bold.ttf"; sourceTree = "<group>"; };
+		3B2AB2AF085841878EA866CE /* Overpass-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Overpass-Italic.ttf"; path = "../assets/fonts/Overpass/Overpass-Italic.ttf"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-MobileTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileTemplate.debug.xcconfig"; path = "Target Support Files/Pods-MobileTemplate/Pods-MobileTemplate.debug.xcconfig"; sourceTree = "<group>"; };
+		5464E6C4996549CEA4AAADF4 /* JetBrainsMono-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JetBrainsMono-Regular.ttf"; path = "../assets/fonts/JetBrainsMono/JetBrainsMono-Regular.ttf"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-MobileTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileTemplate.release.xcconfig"; path = "Target Support Files/Pods-MobileTemplate/Pods-MobileTemplate.release.xcconfig"; sourceTree = "<group>"; };
+		570AC3B9F2C845029BB74FA9 /* JetBrainsMono-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JetBrainsMono-Bold.ttf"; path = "../assets/fonts/JetBrainsMono/JetBrainsMono-Bold.ttf"; sourceTree = "<group>"; };
+		59848CC186B94565BD4DDD42 /* Overpass-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Overpass-Thin.ttf"; path = "../assets/fonts/Overpass/Overpass-Thin.ttf"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-MobileTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		676504D96E9648E8877F5E57 /* WorkSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-Regular.ttf"; path = "../assets/fonts/WorkSans/WorkSans-Regular.ttf"; sourceTree = "<group>"; };
+		70CA77C6E2F64069BEE0963C /* Overpass-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Overpass-ExtraBoldItalic.ttf"; path = "../assets/fonts/Overpass/Overpass-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		73D69B9F344942FBA3B20BB6 /* WorkSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-Bold.ttf"; path = "../assets/fonts/WorkSans/WorkSans-Bold.ttf"; sourceTree = "<group>"; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MobileTemplate/AppDelegate.swift; sourceTree = "<group>"; };
+		7B043846C91B4F3E9AEC54E4 /* JetBrainsMono-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JetBrainsMono-Italic.ttf"; path = "../assets/fonts/JetBrainsMono/JetBrainsMono-Italic.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MobileTemplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D01DD389B3B4D28BE5B65FF /* Overpass-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Overpass-SemiBold.ttf"; path = "../assets/fonts/Overpass/Overpass-SemiBold.ttf"; sourceTree = "<group>"; };
+		957BA865088F4B7E86FAFCC8 /* FragmentMono-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "FragmentMono-Regular.ttf"; path = "../assets/fonts/FragmentMono/FragmentMono-Regular.ttf"; sourceTree = "<group>"; };
+		991E1AA10CB2469BBB66712B /* SplineSansMono-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SplineSansMono-SemiBold.ttf"; path = "../assets/fonts/SplineSansMono/SplineSansMono-SemiBold.ttf"; sourceTree = "<group>"; };
+		9FA5291B285249C2B7B6AAB5 /* Helvetica-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-Bold.ttf"; path = "../assets/fonts/Helvetica/Helvetica-Bold.ttf"; sourceTree = "<group>"; };
+		A41F7DCD93A64335814B7CB8 /* WorkSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "WorkSans-Medium.ttf"; path = "../assets/fonts/WorkSans/WorkSans-Medium.ttf"; sourceTree = "<group>"; };
+		A652F89AECB948F2B449F6D6 /* Overpass-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Overpass-ExtraLight.ttf"; path = "../assets/fonts/Overpass/Overpass-ExtraLight.ttf"; sourceTree = "<group>"; };
+		AA5F9200A45D46A6B121BC27 /* FragmentMono-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "FragmentMono-Italic.ttf"; path = "../assets/fonts/FragmentMono/FragmentMono-Italic.ttf"; sourceTree = "<group>"; };
+		AD0D839DD93940BCA8364CAE /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../assets/fonts/Poppins/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		B3971AB99AC74BE5AA6CBA57 /* SplineSansMono-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SplineSansMono-Regular.ttf"; path = "../assets/fonts/SplineSansMono/SplineSansMono-Regular.ttf"; sourceTree = "<group>"; };
+		BAEF1548AFDA402293A3AB01 /* LexendDeca-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LexendDeca-Medium.ttf"; path = "../assets/fonts/LexendDeca/LexendDeca-Medium.ttf"; sourceTree = "<group>"; };
+		C1BD44E5FB68481DBA97A373 /* Overpass-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Overpass-Black.ttf"; path = "../assets/fonts/Overpass/Overpass-Black.ttf"; sourceTree = "<group>"; };
+		C95431010DD14DE4BBFF2612 /* Overpass-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Overpass-BoldItalic.ttf"; path = "../assets/fonts/Overpass/Overpass-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C9CA9F6DDAA94B23AF1B8BCF /* Overpass-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Overpass-ExtraLightItalic.ttf"; path = "../assets/fonts/Overpass/Overpass-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		CCDFB68EA9BF4C678BB07D3E /* JetBrainsMono-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "JetBrainsMono-Medium.ttf"; path = "../assets/fonts/JetBrainsMono/JetBrainsMono-Medium.ttf"; sourceTree = "<group>"; };
+		CEBAEBDA454B4836A1908415 /* Helvetica-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Helvetica-Regular.ttf"; path = "../assets/fonts/Helvetica/Helvetica-Regular.ttf"; sourceTree = "<group>"; };
+		DE7B5276509F45AF909D8DEF /* Overpass-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Overpass-Light.ttf"; path = "../assets/fonts/Overpass/Overpass-Light.ttf"; sourceTree = "<group>"; };
+		E0583B2473BC4CE8A7EAE9FA /* Overpass-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Overpass-SemiBoldItalic.ttf"; path = "../assets/fonts/Overpass/Overpass-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		E2E5472F44A0476CA41C01C8 /* SplineSansMono-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SplineSansMono-Medium.ttf"; path = "../assets/fonts/SplineSansMono/SplineSansMono-Medium.ttf"; sourceTree = "<group>"; };
+		E6FAD8C3CF4D4AF7A39A2688 /* Overpass-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Overpass-Regular.ttf"; path = "../assets/fonts/Overpass/Overpass-Regular.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F008AC3E7C644D5790442CDE /* LexendDeca-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LexendDeca-SemiBold.ttf"; path = "../assets/fonts/LexendDeca/LexendDeca-SemiBold.ttf"; sourceTree = "<group>"; };
+		F0BBC0790F27499BB4B4A4DF /* Overpass-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Overpass-Medium.ttf"; path = "../assets/fonts/Overpass/Overpass-Medium.ttf"; sourceTree = "<group>"; };
+		F5E1C634A7AC4F50A62146CF /* LexendDeca-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LexendDeca-Regular.ttf"; path = "../assets/fonts/LexendDeca/LexendDeca-Regular.ttf"; sourceTree = "<group>"; };
+		F643485457514065BB373A4E /* Overpass-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Overpass-ExtraBold.ttf"; path = "../assets/fonts/Overpass/Overpass-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F6B3B6A700B4470E85002DF8 /* Overpass-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Overpass-MediumItalic.ttf"; path = "../assets/fonts/Overpass/Overpass-MediumItalic.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-MobileTemplate.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* MobileTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				761780EC2CA45674006654EE /* AppDelegate.swift */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+			);
+			name = MobileTemplate;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-MobileTemplate.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* MobileTemplate */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				CD5969C717BF47FBBA4A14E5 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* MobileTemplate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-MobileTemplate.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-MobileTemplate.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD5969C717BF47FBBA4A14E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA5F9200A45D46A6B121BC27 /* FragmentMono-Italic.ttf */,
+				957BA865088F4B7E86FAFCC8 /* FragmentMono-Regular.ttf */,
+				9FA5291B285249C2B7B6AAB5 /* Helvetica-Bold.ttf */,
+				CEBAEBDA454B4836A1908415 /* Helvetica-Regular.ttf */,
+				570AC3B9F2C845029BB74FA9 /* JetBrainsMono-Bold.ttf */,
+				7B043846C91B4F3E9AEC54E4 /* JetBrainsMono-Italic.ttf */,
+				CCDFB68EA9BF4C678BB07D3E /* JetBrainsMono-Medium.ttf */,
+				5464E6C4996549CEA4AAADF4 /* JetBrainsMono-Regular.ttf */,
+				38052427DF4F472FADDDB294 /* LexendDeca-Bold.ttf */,
+				BAEF1548AFDA402293A3AB01 /* LexendDeca-Medium.ttf */,
+				F5E1C634A7AC4F50A62146CF /* LexendDeca-Regular.ttf */,
+				F008AC3E7C644D5790442CDE /* LexendDeca-SemiBold.ttf */,
+				C1BD44E5FB68481DBA97A373 /* Overpass-Black.ttf */,
+				2387C0B75210468B9ABF61A5 /* Overpass-BlackItalic.ttf */,
+				02A653FDEE8748508735ED64 /* Overpass-Bold.ttf */,
+				C95431010DD14DE4BBFF2612 /* Overpass-BoldItalic.ttf */,
+				F643485457514065BB373A4E /* Overpass-ExtraBold.ttf */,
+				70CA77C6E2F64069BEE0963C /* Overpass-ExtraBoldItalic.ttf */,
+				A652F89AECB948F2B449F6D6 /* Overpass-ExtraLight.ttf */,
+				C9CA9F6DDAA94B23AF1B8BCF /* Overpass-ExtraLightItalic.ttf */,
+				3B2AB2AF085841878EA866CE /* Overpass-Italic.ttf */,
+				DE7B5276509F45AF909D8DEF /* Overpass-Light.ttf */,
+				2D043E5C75944A42BCB90D21 /* Overpass-LightItalic.ttf */,
+				F0BBC0790F27499BB4B4A4DF /* Overpass-Medium.ttf */,
+				F6B3B6A700B4470E85002DF8 /* Overpass-MediumItalic.ttf */,
+				E6FAD8C3CF4D4AF7A39A2688 /* Overpass-Regular.ttf */,
+				8D01DD389B3B4D28BE5B65FF /* Overpass-SemiBold.ttf */,
+				E0583B2473BC4CE8A7EAE9FA /* Overpass-SemiBoldItalic.ttf */,
+				59848CC186B94565BD4DDD42 /* Overpass-Thin.ttf */,
+				2FBBA8C8877F4643A9AF9E36 /* Overpass-ThinItalic.ttf */,
+				00D88D562D0D4FD383A4A5A5 /* Poppins-Bold.ttf */,
+				AD0D839DD93940BCA8364CAE /* Poppins-Medium.ttf */,
+				01C8049BDB524E6293D04361 /* Poppins-Regular.ttf */,
+				3B25FA3549A44A2D9207D202 /* SplineSansMono-Bold.ttf */,
+				E2E5472F44A0476CA41C01C8 /* SplineSansMono-Medium.ttf */,
+				B3971AB99AC74BE5AA6CBA57 /* SplineSansMono-Regular.ttf */,
+				991E1AA10CB2469BBB66712B /* SplineSansMono-SemiBold.ttf */,
+				73D69B9F344942FBA3B20BB6 /* WorkSans-Bold.ttf */,
+				A41F7DCD93A64335814B7CB8 /* WorkSans-Medium.ttf */,
+				676504D96E9648E8877F5E57 /* WorkSans-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* MobileTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MobileTemplate" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileTemplate;
+			productName = MobileTemplate;
+			productReference = 13B07F961A680F5B00A75B9A /* MobileTemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MobileTemplate" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* MobileTemplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				E7249B881D4CAEC383EF2538 /* PrivacyInfo.xcprivacy in Resources */,
+				4E43E002181D4C3E8B5FBB4B /* FragmentMono-Italic.ttf in Resources */,
+				3E1A8595E9394BB99E6CD0E3 /* FragmentMono-Regular.ttf in Resources */,
+				184D68429E7746889D798DB0 /* Helvetica-Bold.ttf in Resources */,
+				9AB2505C85B24B84ADF8A279 /* Helvetica-Regular.ttf in Resources */,
+				DB1C2CB3F69B48F497238DEA /* JetBrainsMono-Bold.ttf in Resources */,
+				F0ED6222C0D64C818D73F6BD /* JetBrainsMono-Italic.ttf in Resources */,
+				4C41BE980A9841C49FD6C88D /* JetBrainsMono-Medium.ttf in Resources */,
+				704A4D53B0B14B969A21731A /* JetBrainsMono-Regular.ttf in Resources */,
+				4F716BC805AE4C44A856D305 /* LexendDeca-Bold.ttf in Resources */,
+				1040442AB3B24FD4A066F42C /* LexendDeca-Medium.ttf in Resources */,
+				2E833FF3096547EAA811540E /* LexendDeca-Regular.ttf in Resources */,
+				C9A75BFF5F1B4F0180E93EE1 /* LexendDeca-SemiBold.ttf in Resources */,
+				CC5A5386010A4F029575C55F /* Overpass-Black.ttf in Resources */,
+				1647C84755974A4D85F7C117 /* Overpass-BlackItalic.ttf in Resources */,
+				14F73819831F4D92BF93C25C /* Overpass-Bold.ttf in Resources */,
+				2C61203F9F284286BA340B0F /* Overpass-BoldItalic.ttf in Resources */,
+				096C0945575643ACA46332A9 /* Overpass-ExtraBold.ttf in Resources */,
+				9B3FA0F882804FA69C344572 /* Overpass-ExtraBoldItalic.ttf in Resources */,
+				1A2461A773554009A7BA977F /* Overpass-ExtraLight.ttf in Resources */,
+				924EC8C090AD4FD296B97DAE /* Overpass-ExtraLightItalic.ttf in Resources */,
+				EAE194FCBAB24DC396746500 /* Overpass-Italic.ttf in Resources */,
+				3B2F1FA343314EE286B63FDC /* Overpass-Light.ttf in Resources */,
+				DDBEA86439D74BB68D12AA75 /* Overpass-LightItalic.ttf in Resources */,
+				1B2E7C04543547A29D424121 /* Overpass-Medium.ttf in Resources */,
+				3E4D6367558946C89A2CC7ED /* Overpass-MediumItalic.ttf in Resources */,
+				ED7499D5F0E14A339389DF9E /* Overpass-Regular.ttf in Resources */,
+				81DC97A9A3FA4D99913874BF /* Overpass-SemiBold.ttf in Resources */,
+				EB957BDB205E44058636C2DB /* Overpass-SemiBoldItalic.ttf in Resources */,
+				9823105BB6B044F09C80EA41 /* Overpass-Thin.ttf in Resources */,
+				D9B52C0C0718441AADBEFCE4 /* Overpass-ThinItalic.ttf in Resources */,
+				7ADC433D50D440ADAF26378B /* Poppins-Bold.ttf in Resources */,
+				B728D290E8154AAF96BAD64D /* Poppins-Medium.ttf in Resources */,
+				1C2B86EA46EE4405BF37149E /* Poppins-Regular.ttf in Resources */,
+				BCC2E5A430F5414090CD8A63 /* SplineSansMono-Bold.ttf in Resources */,
+				4E006817FB114376BBE96F1B /* SplineSansMono-Medium.ttf in Resources */,
+				208E9C928ACD44D09567C736 /* SplineSansMono-Regular.ttf in Resources */,
+				565E6FBB1E394ADE9A4986AA /* SplineSansMono-SemiBold.ttf in Resources */,
+				8355D32B5B164C8BB70E3486 /* WorkSans-Bold.ttf in Resources */,
+				92048F1C7B4844EB994E7DD0 /* WorkSans-Medium.ttf in Resources */,
+				B934E1FD9A38496BA316C5FB /* WorkSans-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobileTemplate/Pods-MobileTemplate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobileTemplate/Pods-MobileTemplate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobileTemplate/Pods-MobileTemplate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileTemplate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobileTemplate/Pods-MobileTemplate-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobileTemplate/Pods-MobileTemplate-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobileTemplate/Pods-MobileTemplate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-MobileTemplate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = MobileTemplate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MobileTemplate;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-MobileTemplate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = MobileTemplate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MobileTemplate;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MobileTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MobileTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

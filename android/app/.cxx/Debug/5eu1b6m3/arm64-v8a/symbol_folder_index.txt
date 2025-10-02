@@ -1,0 +1,1 @@
+/Users/pedro-mequelim/Desktop/code/atos/MobileTemplate/android/app/build/intermediates/cxx/Debug/5eu1b6m3/obj/arm64-v8a

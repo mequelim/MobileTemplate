@@ -1,0 +1,18 @@
+current directory: /Users/pedro-mequelim/Desktop/code/atos/MobileTemplate/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+/Users/pedro-mequelim/.asdf/installs/ruby/3.4.4/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/pedro-mequelim/Desktop/code/atos/MobileTemplate/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20251002-4865-fzu7n2 sitelibdir\=./.gem.20251002-4865-fzu7n2 clean
+
+current directory: /Users/pedro-mequelim/Desktop/code/atos/MobileTemplate/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20251002-4865-fzu7n2 sitelibdir\=./.gem.20251002-4865-fzu7n2
+compiling nkf.c
+linking shared-object nkf.bundle
+
+current directory: /Users/pedro-mequelim/Desktop/code/atos/MobileTemplate/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20251002-4865-fzu7n2 sitelibdir\=./.gem.20251002-4865-fzu7n2 install
+/opt/homebrew/bin/ginstall -c -m 0755 nkf.bundle ./.gem.20251002-4865-fzu7n2
+
+current directory: /Users/pedro-mequelim/Desktop/code/atos/MobileTemplate/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20251002-4865-fzu7n2 sitelibdir\=./.gem.20251002-4865-fzu7n2 clean
