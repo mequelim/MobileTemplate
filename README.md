@@ -1,7 +1,29 @@
 # Mobile Base
 
-+ A Mobile application built with React Native CLI (0.81.4) and Node.js (22.20.0 LTS).
-+ The project is structured to ensure scalability, code consistency, and developer productivity.
+## What is this application and what is it for?
+
+`MobileTemplate` is a project designed and structured to be the backbone, the foundational layer, and the architectural skeleton upon which any mobile application developed by Atos can be built—with consistency, standardization, scalability, and speed.
+
+This project was conceived as a standardized starting point for cross-platform mobile app development, using React Native and TypeScript as the main engine.
+
+## The idea? It’s simple...
+
+Avoid reinventing the wheel every time a new app is created or updated from scratch, eliminating the repetitive effort of configuration, dependency alignment, architectural standard definition, and creation of basic utility components.
+
+## What to expect from the application?
+
+At the heart of the project, we have:
+  + **Minimal yet complete configuration**: a ready-to-go environment with all essential dependencies set up, allowing new projects to start without the pain of initial setup;
+  + **Solid base architecture**: organized folders, modular structure, and clear conventions that simplify both maintenance and scalability;
+  + **Reusable fundamental components**: buttons, typography, inputs, containers, loaders — implemented in a generic but extensible way, ready to adapt to any visual identity or project guideline;
+  + **Integration with modern standards**: support for navigation, state management, static typing with TypeScript, linting and formatting best practices — ensuring consistency and code quality from the very first commit;
+  + Designed extensibility: nothing here is an end in itself. MobileTemplate was built to be shaped, extended, and evolved according to the specific demands of each digital product.
+
+### In essence
+
+`MobileTemplate` serves as the ground zero of creation: a base application that reduces the initial entropy of every new project, accelerates development kickoff, and establishes a technical master guideline.
+
+It is a foundation that frees the developer from the bureaucracy of setup and allows them to focus creative energy on what truly matters: business logic, user experience, and product differentiation.
 
 ## Tech Stack
 
@@ -17,14 +39,8 @@
 + [react-native-linear-gradient](https://github.com/react-native-linear-gradient/react-native-linear-gradient) [installed];
 + [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons) [installed];
 + [i18react](https://www.i18next.com/) [planned];
-+ [Async Storage](https://react-native-async-storage.github.io/async-storage/) [not installed yet].
-
-### Supporting Tools
-
-#### Tests in React Native:
-
-+ [Jest](https://playwright.dev/) [unit tests / installed];
-+ [React Native Testing Library](https://testing-library.com/) [not installed yet];
++ [Async Storage](https://react-native-async-storage.github.io/async-storage/) [not installed yet];
++ [Testing Library](https://testing-library.com/) [not installed yet];
 + [React Native Testing Library](https://callstack.github.io/react-native-testing-library/) [not installed yet];
 + [Detox](https://wix.github.io/Detox/) [E2E tests / not installed yet].
 
@@ -58,81 +74,82 @@
 
 ## Project Structure
 
-```bash
-src/
-  components/ 
-  utils/
-    __tests__/
-    constants/
-    functions/
-    regex/
-    types/
-  App.tsx
+```shell
+MobileTemplate/
+  .bundle/
+  android/
+  assets/
+  ios/
+  node_modules/
+  src/
+    components/
+    theme/
+    utils/
+    App.tsx
+  vendor/
+  .eslintrc.js
+  .gitignore
+  .prettierrc.js
+  .watchmanconfig
+  app.json
+  babel.config.js
+  Gemfile
+  Gemfile.lock
+  index.js
+  jest.config.js
+  links.md
+  metro.config.js
+  package.json
+  package-lock.json
+  react-native.config.js
+  README.md
+  tsconfig.json
 ```
 
-#### `./src/components`
+### Folders
 
-#### Purpose
++ `.bundle/`: used by React Native and Metro bundler to store temporary build and cache files; 
++ `android/`: native Android project (Java/Kotlin + Gradle);
+  - Required for builds and platform-specific customizations.
++ `assets/`: stores static resources such as images, fonts, icons, and files that need to be packaged into the app;
++ `ios/`: native iOS project (Swift/Objective-C + Xcode);
+  - Required for builds and platform-specific customizations.
++ `node_modules/`: directory created by npm/yarn containing all project dependencies;
+  - Should not be versioned.
++ `src/`: main directory for the application’s source code;
+  - `components/`: reusable UI components such as buttons, inputs, and texts;
+    * Should be decoupled and preferably stateless;
+    * Props typed via `./src/utils/types`.
+  - `theme/`: global style definitions such as color palette, spacing, and typography;
+    * Centralizes the visual identity of the application.
+  - `utils/`: helper functions, regex, types, and reusable constants;
+    * `constants/`: global constants (colors, configs, endpoints);
+    * `functions/`: pure and reusable functions;
+    * `regex/`: documented and reusable regex patterns;
+    * `types/`: centralized TypeScript definitions for types and props (used by components).
+  - `App.tsx`: root component of the React Native application;
++ `vendor/`: optional folder for custom dependencies or third-party code not coming from npm/yarn.
 
-+ Contains reusable, isolated UI building blocks such as buttons, text elements, and inputs.
+### Files
 
-#### Best Practices
-
-+ Components should be self-contained and stateless when possible;
-+ Props must be typed via src/utils/types for consistency;
-+ No business logic or API calls here;
-+ Styles should be encapsulated in the component file;
-+ Anti-patterns: avoid hard-coded strings. Do not import heavy logic or state management directly.
-
-#### `./src/utils/constants`
-
-#### Purpose
-
-+ Global constants such as colors, spacing, environment variables, and API endpoints.
-
-#### Best Practices
-
-+ Use descriptive constant names such as PRIMARY_COLOR or DEFAULT_TIMEOUT;
-+ Group constants by domain;
-+ Keep values immutable;
-+ Anti-patterns: do not store secrets here. Use `.env` files instead.
-
-#### `./src/utils/functions`
-
-#### Purpose
-
-+ Centralized collection of reusable helper functions such as date formatters, validators, and converters.
-
-#### Best Practices
-
-+ Functions must be pure (no side-effects);
-+ Unit tests should be placed in tests;
-+ Functions should be framework-agnostic;
-+ Anti-patterns: dp not include API logic or React dependencies here.
-
-#### `./src/utils/regex`
-
-#### Purpose
-
-+ Reusable regex patterns for validation such as emails, phone numbers, passwords, etc.
-
-#### Best Practices
-
-+ Document what each regex validates;
-+ Export regex as named constants;
-+ Anti-patterns: do not inline regex in components.
-
-#### `./src/utils/types`
-
-#### Purpose
-
-+ Centralized TypeScript types and component prop definitions.
-
-#### Best Practices
-
-+ Define Props interfaces here and import them in components;
-+ Extend React Native props when needed (e.g., TouchableOpacityProps);
-+ Anti-patterns: do not mix utility functions here. Avoid duplicate type definitions.
++ `.eslintrc.js`: ESLint configuration to enforce code style and best practices;
++ `.gitignore`: defines files/folders ignored by Git (e.g., node_modules/, caches, credentials);
++ `.prettierrc.js`: Prettier configuration (automatic code formatting);
++ `.watchmanconfig`: Watchman configuration (tool that watches for file changes);
++ `app.json`: application configuration (name, version, icons, etc);
+    - Used by React Native CLI.
++ `babel.config.js`: Babel configuration, responsible for transpiling modern code for compatibility;
++ `Gemfile`: list of Ruby dependencies (used in iOS, mainly for CocoaPods);
++ `Gemfile.lock`: exact versions of installed Ruby dependencies.
++ `index.js`: application entry point. Registers App.tsx in the native runtime;
++ `jest.config.js`: Jest testing framework configuration;
++ `links.md`: document with useful project links;
++ `metro.config.js`: Metro bundler configuration (official React Native packager);
++ `package.json`: main Node.js project file (scripts, dependencies, metadata);
++ `package-lock.json`: locks the exact versions of dependencies installed via npm;
++ `react-native.config.js`: advanced React Native CLI configuration (e.g., native library linking);
++ `README.md`: main project documentation;
++ `tsconfig.json`: TypeScript compiler configuration (paths, typing, strict mode, etc).
 
 #### Example
 
