@@ -39,6 +39,9 @@
     > **Note**: initially, `npm` was used in the project.
 
 + Java JDK 17+ (for Android builds);
+
+  > **Note:** to create the project, it was used JDK Java 21.0.8 (Temurin JDK)!
+
 + Xcode (for iOS builds, macOS only);
 + CocoaPods (for iOS dependency management).
 
