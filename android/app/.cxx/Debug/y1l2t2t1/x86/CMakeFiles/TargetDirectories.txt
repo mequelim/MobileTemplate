@@ -1,0 +1,15 @@
+C:/code/atos/MobileTemplate/android/app/.cxx/Debug/y1l2t2t1/x86/CMakeFiles/appmodules.dir
+C:/code/atos/MobileTemplate/android/app/.cxx/Debug/y1l2t2t1/x86/CMakeFiles/edit_cache.dir
+C:/code/atos/MobileTemplate/android/app/.cxx/Debug/y1l2t2t1/x86/CMakeFiles/rebuild_cache.dir
+C:/code/atos/MobileTemplate/android/app/.cxx/Debug/y1l2t2t1/x86/VectorIconsFeather_autolinked_build/CMakeFiles/react_codegen_VectorIconsFeather.dir
+C:/code/atos/MobileTemplate/android/app/.cxx/Debug/y1l2t2t1/x86/VectorIconsFeather_autolinked_build/CMakeFiles/edit_cache.dir
+C:/code/atos/MobileTemplate/android/app/.cxx/Debug/y1l2t2t1/x86/VectorIconsFeather_autolinked_build/CMakeFiles/rebuild_cache.dir
+C:/code/atos/MobileTemplate/android/app/.cxx/Debug/y1l2t2t1/x86/VectorIconsIonicons_autolinked_build/CMakeFiles/react_codegen_VectorIconsIonicons.dir
+C:/code/atos/MobileTemplate/android/app/.cxx/Debug/y1l2t2t1/x86/VectorIconsIonicons_autolinked_build/CMakeFiles/edit_cache.dir
+C:/code/atos/MobileTemplate/android/app/.cxx/Debug/y1l2t2t1/x86/VectorIconsIonicons_autolinked_build/CMakeFiles/rebuild_cache.dir
+C:/code/atos/MobileTemplate/android/app/.cxx/Debug/y1l2t2t1/x86/safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir
+C:/code/atos/MobileTemplate/android/app/.cxx/Debug/y1l2t2t1/x86/safeareacontext_autolinked_build/CMakeFiles/edit_cache.dir
+C:/code/atos/MobileTemplate/android/app/.cxx/Debug/y1l2t2t1/x86/safeareacontext_autolinked_build/CMakeFiles/rebuild_cache.dir
+C:/code/atos/MobileTemplate/android/app/.cxx/Debug/y1l2t2t1/x86/rnscreens_autolinked_build/CMakeFiles/react_codegen_rnscreens.dir
+C:/code/atos/MobileTemplate/android/app/.cxx/Debug/y1l2t2t1/x86/rnscreens_autolinked_build/CMakeFiles/edit_cache.dir
+C:/code/atos/MobileTemplate/android/app/.cxx/Debug/y1l2t2t1/x86/rnscreens_autolinked_build/CMakeFiles/rebuild_cache.dir
