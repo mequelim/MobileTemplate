@@ -17,6 +17,7 @@ import { ModalDialogProps } from "../utils/types/props/modal-props";
 
 // Constants...
 import { WEB_A11Y_PROPS } from "../utils/constants/web-A11y-Props";
+import { colors } from "../theme/colors";
 
 function ModalDialog(props: ModalDialogProps): React.JSX.Element {
   // Hooks...
@@ -191,13 +192,11 @@ const styles = StyleSheet.create({
   card: {
     borderRadius: 14,
     padding: 18,
-    backgroundColor: "#111213",
-    // sombra iOS
+    backgroundColor: colors.background,
     shadowColor: "#000",
     shadowOpacity: 0.25,
     shadowRadius: 12,
     shadowOffset: { width: 0, height: 6 },
-    // elevação Android
     elevation: 6
   },
   headerRow: {
@@ -208,20 +207,20 @@ const styles = StyleSheet.create({
     flex: 1,
     fontSize: 18,
     fontWeight: "700",
-    color: "#FFFFFF"
+    color: colors.text
   },
   xButton: {
     marginLeft: 8
   },
   x: {
     fontSize: 24,
-    color: "#A7A7A7",
+    color: colors.textSecondary,
     lineHeight: 24
   },
   description: {
     marginTop: 8,
     fontSize: 14,
-    color: "#CFCFCF"
+    color: colors.textSecondary
   },
   footer: {
     marginTop: 16,
@@ -233,23 +232,23 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     paddingHorizontal: 14,
     borderRadius: 10,
-    backgroundColor: "#1C1D1F"
+    backgroundColor: colors.background
   },
   secondaryText: {
-    color: "#CFCFCF",
+    color: colors.textSecondary,
     fontWeight: "600"
   },
   primaryBtn: {
     paddingVertical: 10,
     paddingHorizontal: 14,
     borderRadius: 10,
-    backgroundColor: "#4C8BF5"
+    backgroundColor: colors.background
   },
   destructive: {
-    backgroundColor: "#E5484D"
+    backgroundColor: "#FF0000"
   },
   primaryText: {
-    color: "#fff",
+    color: colors.text,
     fontWeight: "700"
   },
   pressed: {
